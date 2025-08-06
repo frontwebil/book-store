@@ -1,0 +1,39 @@
+.thank-page-text {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 40px auto 0;
+  gap: 20px;
+}
+
+.thank-page-text h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.thank-page-text p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.thank-page-text a {
+  text-align: center;
+  padding: 8px;
+  border-radius: 4px;
+  width: 100%;
+  background-color: #153bae;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+
+.thank-page-text a:hover {
+  color: #153bae;
+  border: #153bae solid 1px;
+  background-color: white;
+}

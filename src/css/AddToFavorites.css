@@ -1,0 +1,31 @@
+.heart-button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.heart-button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heart-icon {
+  color: #153bae;
+  font-size: 20px;
+}
+
+.heart-icon.liked {
+  color: #e91e63;
+}
+
+.top-right {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}

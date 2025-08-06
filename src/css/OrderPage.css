@@ -1,0 +1,152 @@
+.orderPage-title {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  color: #222;
+}
+
+.order-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.order-section {
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.order-section-block {
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order-section-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.order-section-form label {
+  font-size: 16px;
+  color: #797878;
+}
+
+.order-section-form input {
+  width: 100%;
+  border: 1px solid #d2d2d2;
+  border-radius: 8px;
+  padding: 12px 10px;
+}
+
+.order-section .order-section-form input:focus {
+  outline: 1px solid #6fc4e5 !important;
+  box-shadow: 0 0 0 2px #6fc4e5;
+}
+
+.order-section-block-row {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.warning-block {
+  background-color: rgba(255, 169, 0, 0.1);
+  border: 2px solid #ffa900;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 16px;
+}
+
+.order-section-form select {
+  width: 100%;
+  border: 1px solid #d2d2d2;
+  border-radius: 8px;
+  padding: 12px 10px;
+}
+
+.order-price {
+  width: 30%;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 20px;
+  height: max-content;
+}
+
+.order-price h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222;
+}
+
+.price-per-book {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-bottom: 1px solid;
+  padding-bottom: 20px;
+}
+
+.price-per-book h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+}
+
+.price-per-book-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-per-book-row p {
+  font-size: 18px;
+}
+
+.price-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.price-summary-numbers {
+  font-weight: 700;
+}
+
+.order-section-block h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222;
+}
+
+.price-summary p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.order-button{
+  width: 100%;
+  background-color: #E10098;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.order-button:hover{
+  background-color: #E10098;
+  opacity: 0.9;
+  scale: 1.02;
+}

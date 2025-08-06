@@ -1,0 +1,106 @@
+.catalog {
+  position: relative;
+  min-height: 50vh;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.book-card {
+  width: 100%;
+  padding: 16px 16px 25px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  height: max-content;
+}
+
+.book-card a:first-child {
+  display: flex;
+  justify-content: center;
+}
+
+.book-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.book-card-img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  /* border-radius: 12px; */
+}
+
+.book-card-title {
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e1e1e;
+}
+
+.book-card-author {
+  font-size: 15px;
+  color: #757575;
+  margin: 4px 0 8px;
+}
+
+.book-card-price {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ff4081;
+}
+
+.addToCart-button {
+  margin-top: 15px;
+  padding: 8px;
+  border-radius: 4px;
+  width: 100%;
+  background-color: #153bae;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+
+.addToCart-button:hover {
+  color: #153bae;
+  border: #153bae solid 1px;
+  background-color: white;
+}
+
+.not-found-filters {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+@media only screen and (max-width: 1300px) {
+  .catalog {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .catalog {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .catalog {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .book-card-img {
+    width: 100%;
+    object-fit: contain;
+    max-width: 200px;
+    height: auto;
+  }
+}

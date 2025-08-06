@@ -1,0 +1,40 @@
+.slider-container{
+  padding: 0 10px;
+}
+
+.price-inputs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.price-inputs input {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.price-inputs input:focus {
+  border: 1px solid #d81b60;
+}
+
+
+.noUi-connect {
+  background: #153bae;
+}
+
+.noUi-handle {
+  background-color: #153bae;
+  border-radius: 50%;
+  border: none;
+}
+
+.noUi-handle:before,
+.noUi-handle:after {
+  display: none;
+}

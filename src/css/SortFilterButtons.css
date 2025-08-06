@@ -1,0 +1,52 @@
+.sort-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 10px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.filtr-button {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  gap: 5px;
+  background-color: #d81b60;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.filtr-button:hover {
+  border: 1px solid #d81b60;
+  color: #d81b60;
+  background-color: #fff;
+}
+
+.filtr-icon {
+  font-size: 1.2rem;
+}
+
+.sort-options {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  min-width: 200px;
+}
+
+.sort-options:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
