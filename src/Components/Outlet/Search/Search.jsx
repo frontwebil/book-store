@@ -57,7 +57,10 @@ export function Search({ isFocusedForm, setIsFocusedForm }) {
   return (
     <>
       <div className={`search-overlay ${isFocusedForm ? "active" : ""}`}></div>
-      <div className={`search-container ${isFocusedForm ? "active" : ""}`} ref={wrapperRef}>
+      <div
+        className={`search-container ${isFocusedForm ? "active" : ""}`}
+        ref={wrapperRef}
+      >
         <form className="search-wrapper" onSubmit={handleSearch}>
           <FaSearch className="search-icon" />
           <input
