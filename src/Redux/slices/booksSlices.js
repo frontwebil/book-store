@@ -38,7 +38,7 @@ const initialState = {
 
 export const getAllBooks = createAsyncThunk("axiosBooks/get", async () => {
   try {
-    const response = await axios.get(`http://localhost:3000/api/books`, {
+    const response = await axios.get(`https://backend-books-production-49d3.up.railway.app/api/books`, {
       headers: {
         "secret-api-key": `${import.meta.env.VITE_API_KEY}`,
       },
