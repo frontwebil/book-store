@@ -68,6 +68,7 @@ export function OrderPage() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          "secret-api-key": `${import.meta.env.VITE_API_KEY}`
         },
         body: JSON.stringify({
           chat_id: import.meta.env.VITE_TELEGRAM_CHAT_ID,
